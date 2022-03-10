@@ -3,7 +3,7 @@ AnimeIT is a Web Application for Otakus(Anime watchers). You can create a subred
 
 ## Application live at: <p>
 ### <b>Note: <b>
-Please use user1 as username and user1 as password to login and see the posts \
+Please use user1 as username and user1 as password \
 <https://anime-it.herokuapp.com/>
 
  ## Documentation for the API
