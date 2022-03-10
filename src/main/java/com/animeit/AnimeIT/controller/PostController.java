@@ -23,7 +23,7 @@ import lombok.AllArgsConstructor;
 public class PostController {
 	private final PostService postService;
 	
-	@PostMapping
+	@PostMapping("/")
 	public ResponseEntity<Void> createPost(@RequestBody PostRequest postRequest) {
 		postService.save(postRequest);
 		return new ResponseEntity<>(HttpStatus.CREATED);

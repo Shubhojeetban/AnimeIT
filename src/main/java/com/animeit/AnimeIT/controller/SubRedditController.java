@@ -17,7 +17,7 @@ import com.animeit.AnimeIT.service.SubredditService;
 import lombok.AllArgsConstructor;
 
 @RestController
-@RequestMapping("/api/subreddit/")
+@RequestMapping("/api/subreddit")
 @AllArgsConstructor
 public class SubRedditController {
 	
@@ -33,7 +33,7 @@ public class SubRedditController {
 		return ResponseEntity.status(HttpStatus.OK).body(subredditService.getAll());
 	}
 	
-	@GetMapping("{id}")
+	@GetMapping("/{id}")
 	public ResponseEntity<SubRedditDto> getSubreddit(@PathVariable Long id) {
 		return ResponseEntity.status(HttpStatus.OK).body(subredditService.getSubreddit(id));
 	}
