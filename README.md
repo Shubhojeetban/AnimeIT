@@ -10,7 +10,7 @@ Please use user1 as username and user1 as password to login and see the posts \
   <https://anime-it-backend.herokuapp.com/swagger-ui.html#/>
   
   ## Screenshots
-  <img src="https://raw.githubusercontent.com/Shubhojeetban/AnimeIT/main/screenshots/home-page.png" width=100% height= 600>
+  <img src="https://raw.githubusercontent.com/Shubhojeetban/AnimeIT/main/screenshots/home-page.png" width=100% height= 500>
   
   ## Backend 
   <https://anime-it-backend.herokuapp.com/>
