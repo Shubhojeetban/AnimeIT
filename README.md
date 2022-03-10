@@ -18,5 +18,6 @@ Please use user1 as username and user1 as password to login and see the posts \
   ## Features
   
   1. Authenticated login using JWT token Authentication. 
-  2. Customed Exception for clear error debuging. 
-  3. Well Documented for client usage. 
+  2. Email verification at signup for activation of the account.
+  3. Customed Exception for clear error debuging. 
+  4. Well Documented for client usage. 
